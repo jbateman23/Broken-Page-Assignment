@@ -3,17 +3,19 @@ body {
   color: #444;
   font-size: 16px;
   font-family: 'Gentium Book Basic', serif;
+  background-color:#FFF;
+
 }
 p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #c17564;
+  background-color: #8D89A6;
 }
 footer {
   text-align: center;
   padding: 1em 0 .3em 0;
-  color: #D0D0D0;
+  color: #FFF;
 }
 /*-- Main Menu Styles--*/
 nav ul {
@@ -23,7 +25,7 @@ nav ul {
   justify-content: space-between;
 }
 nav a:link, nav a:visited {
-  color: #D0D0D0;
+  color: #FFF;
   text-decoration: none;
 
 }
@@ -45,7 +47,7 @@ header {
   margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
-  color: #64c1b4;
+  color: #52B2CF;
 }
 header img {
   width: 100%;
@@ -67,6 +69,8 @@ header h1 {
   font-size: 15px;
   color: #6464c1;
   font-weight: 900;
+  margin-left: auto;
+  margin-right: auto;
 
 
 }
@@ -90,25 +94,25 @@ article figcaption {
   margin-bottom: 2em;
   width: 96%;
   font-weight: 100;
-  font-family: 'Arial';
+  font-family: 'Futura';
   display:flex;
   justify-content: space-between;
 }
 a.button {
-  border: 1px solid #888;
+  border: 3px solid #8D89A6;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
   color: #888;
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 80%;
   justify-content:space-between;
 }
 a.button:hover, a.button:active {
-  border: 1px solid #444;
+  border: 3px solid #52B2CF;
   text-decoration: none;
-  color: #222;
+  color: #52B2CF;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
