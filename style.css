@@ -92,6 +92,8 @@ article figure {
   float:right;
 }
 article figcaption {
+  font-size: 15px;
+  font-family:sans-serif;
 }
 .pagination {
   margin-top: 2em;
