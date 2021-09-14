@@ -112,12 +112,13 @@ article figcaption {
   font-family: 'Futura';
   display:flex;
   justify-content: space-between;
+
 }
 a.button {
-  border: 3px solid #8D89A6;
+  border: 2px solid #8D89A6;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #888;
+  color: #8D89A6;
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -125,7 +126,7 @@ a.button {
   justify-content:space-between;
 }
 a.button:hover, a.button:active {
-  border: 3px solid #52B2CF;
+  border: 2px solid #52B2CF;
   text-decoration: none;
   color: #7db0c2;
 }
